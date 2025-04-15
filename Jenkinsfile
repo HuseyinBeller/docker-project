@@ -7,7 +7,7 @@ pipeline {
         DockerComposeFile = 'docker-compose.yml'
         DotEnvFile = '.env'
     }
-#
+
     stages {
 
         stage("buildImage") {
